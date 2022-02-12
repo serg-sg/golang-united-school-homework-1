@@ -1,5 +1,9 @@
-package solution
+package main
 
-func GetMessage() string {
-	return ""
+import (
+	"github.com/kyokomi/emoji"
+)
+
+func main() {
+	emoji.Println("Hello :world_map:!")
 }
